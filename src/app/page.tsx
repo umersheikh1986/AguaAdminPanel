@@ -15,14 +15,14 @@ export default function Home() {
         <div className="flex justify-between items-center">
         <h1>Dashboard</h1>
         <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
-              <span className="rounded-lg border border-white bg-gray-200 px-8 py-2 text-center text-sm font-medium text-black  focus:outline-none focus:ring-4 ">
+              <span className="rounded-lg mb-4 border border-white bg-gray-200 px-8 py-2 text-center text-sm font-medium text-black  focus:outline-none focus:ring-4 ">
                 <Link href={"/auth/signup"} className="">
-                  Sign Up
+                Sign Up / Sign in
                 </Link>
               </span>
             </div>
             </div>
-        {/* <ECommerce /> */}
+        <ECommerce />
       </DefaultLayout>
     </>
   );
